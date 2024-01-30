@@ -19,7 +19,7 @@ title: Priyank Tiwari # the main title
 tagline: Tech, Adventure, Finance, Real Estate, Philosophy # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  Priyank Tiwari's blog where I will share my thoughts and learnings related to Tech, Adventure, Finance, Real Estate & Philosophy.
+  This is my personal blog where I share my thoughts and learnings related to Tech, Finance, Real Estate & Philosophy.
 
 # Fill in the protocol & hostname for your site.
 # e.g. 'https://username.github.io', note that it does not end with a '/'.
@@ -50,7 +50,7 @@ google_site_verification: # fill in to your verification string
 # The end of `jekyll-seo-tag` settings
 
 google_analytics:
-  id: # fill in your Google Analytics ID
+  id: G-WLSWRTVWP6
 
 # Prefer color scheme setting.
 #
