@@ -1,22 +1,22 @@
 ---
 layout: post
-title:  Real time currency formatting with AlpinJS
+title:  Real time currency formatting with Alpin.js
 tag: tech
 category: tech
 date: 2024-01-19 05:30:00 +0530
 ---
-At KOFFi, we recently decided to build a returns calculator to highlight how KOFFi recommended debt mutual funds generate superior returns in short term as compared to the bank fixed deposits. Following is the screenshot of the same,
+At KOFFi, we recently decided to build a returns calculator to highlight how KOFFi recommended debt mutual funds generate superior returns in short term as compared to the bank fixed deposits.
 
-![KOFFi Calculator](/assets/koffi-calculator.png){: w="100" h="200" }
+![KOFFi Calculator](/assets/koffi-calculator.png){: w="300" h="600" }
 _KOFFi Returns Calculator_
 
-The calculator takes the amount and duration in weeks and generates the returns for KOFFi recommended mutual fund v/s fixed deposit. The calculator is a simple utility built using tailwind & Alpine.js in the frontend supported by python FastAPI in the backend.
+The calculator takes the amount and duration in weeks and generates the returns for KOFFi recommended mutual fund v/s fixed deposit. The calculator is a simple utility built using tailwindcss & Alpine.js in the frontend supported by python FastAPI in the backend.
 
-Initially the “Amount” input box was a plain html input tag with type=”number” attribute. This allowed us to supply min, max & step values so that the amount can be validated at the client side with minimum efforts.
+Initially the *Amount* input box was a plain html input tag with `type=”number”` attribute. This allowed us to supply min, max & step values so that the amount can be validated at the client side with minimum efforts.
 
-Later, we received feedback from the users that while typing large amount, due to absence of formatting, it was sometimes confusing to understand if they have typed 100000 or 1000000 especially on the mobile devices. Acknowledging the feedback, we decided to format the “Amount” input on the fly in the Indian currency format such that 100000 will look 1,00,000 and 1000000 will look 10,00,000. This means that we can no longer use type=”number” since comma will not be allowed.
+Later, we received feedback from the users that while typing large amount, due to absence of formatting, it was sometimes confusing to understand if they have typed 100000 or 1000000 especially on the mobile devices. Acknowledging the feedback, we decided to format the *Amount* input on the fly in the Indian currency format such that 100000 will look 1,00,000 and 1000000 will look 10,00,000. This means that we can no longer use `type=”number”` since comma will not be allowed.
 
-We were already using Alpine.js in the frontend for basic interactivity and decided to dynamically format the amount using Alpine.js. A quick search led us to $money() prebuilt [Mask Plugin](https://alpinejs.dev/plugins/mask) that is built for this exact same purpose. Only cavet is that it works well for US & EU (100,000) currency formats and not INR(1,00,000) format out of the box. Fortunately, mask plugin allows us to provide custom expression to format the input and we decided to make use of it. Below is the simplified version of our code for reference.
+We were already using [Alpine.js](https://alpinejs.dev/) in the frontend for basic interactivity and decided to dynamically format the amount using Alpine.js. A quick search led us to `$money()` prebuilt [Mask Plugin](https://alpinejs.dev/plugins/mask) that is built for this exact same purpose. Only cavet is that it works well for US & EU (100,000) currency formats and not INR(1,00,000) format out of the box. Fortunately, mask plugin allows us to provide custom expression to format the input and we decided to make use of it. Below is the simplified version of our code for reference.
 
 ```javascript
 <script>
