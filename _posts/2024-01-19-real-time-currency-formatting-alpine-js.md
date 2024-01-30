@@ -7,7 +7,7 @@ date: 2024-01-19 05:30:00 +0530
 ---
 At KOFFi, we recently decided to build a returns calculator to highlight how KOFFi recommended debt mutual funds generate superior returns in short term as compared to the bank fixed deposits.
 
-![KOFFi Calculator](/assets/koffi-calculator.png){: w="300" h="600" }
+![KOFFi Calculator](/assets/koffi-calculator.png){: w="400" h="700" }
 _KOFFi Returns Calculator_
 
 The calculator takes the amount and duration in weeks and generates the returns for KOFFi recommended mutual fund v/s fixed deposit. The calculator is a simple utility built using tailwindcss & Alpine.js in the frontend supported by python FastAPI in the backend.
