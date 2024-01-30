@@ -12,6 +12,7 @@ Simple web page for tracking current and upcoming index options expiry for the I
 I trade index options in the Indian stock market to generate a passive income on the side. The goal is to generate passive income with minimum time investment. I usually sell [far OTM index options](https://www.avatrade.com/education/market-terms/what-is-otm) on the expiry day which has high risk to reward ratio. The general idea is to make ₹2 if market is in the favor of the strategy and loose ₹1 if the market is not in the favor of the strategy. Usually, by selling the far OTM options, the win rate is more than 70%.
 
 Since there is an index option expiring every day of the week now, the strategy works really well. The below table outlines the day of the week and the corresponding expiring index option.
+
 | Day of week | Expiries |
 |--|--|
 | Monday | MIDCAPNIFTY, BANKEX |
