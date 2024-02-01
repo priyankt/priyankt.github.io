@@ -77,5 +77,4 @@ async def get_expiry_calendar(
 ```
 
 ## Next morning (1st Feb, 2024)
-
-I was pretty confident this time that the bug has been fixed. So confident that I didn't even wait to verify it and wrote the blog post. I wasn't disappointed. The calendar is not displaying the correct expiries. You can check out the expiry calendar yourself [here](https://expiry-calendar.priyankt.com/).
+I was pretty confident this time that the bug had been fixed, so confident that I didn't even wait to verify it before writing the blog post. I wasn't disappointed — the calendar is now displaying the correct expiries. You can check out the expiry calendar yourself [here](https://expiry-calendar.priyankt.com/).
