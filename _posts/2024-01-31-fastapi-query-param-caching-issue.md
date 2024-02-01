@@ -6,7 +6,7 @@ category: tech
 date: 2024-01-31 18:16:00 +0530
 ---
 
-While building the options expiry calendar, I came across a weird issue that haunted me for 3 days. The following blog post outlines the issue and how I was able to track and fix it. Following is an excerpt from the buggy code for reference. See if you can spot the bug.
+While building the [options expiry calendar](https://priyankt.com/posts/building-expiry-calendar/), I came across a weird issue that haunted me for 3 days. The following blog post outlines the issue and how I was able to track and fix it. Following is an excerpt from the buggy code for reference. See if you can spot the bug.
 
 ```python
 @app.get(path="/", response_class=HTMLResponse)
@@ -20,14 +20,7 @@ async def get_expiry_calendar(
     is_selected = True
 ```
 
-For the [options expiry calendar](https://priyankt.com/posts/building-expiry-calendar/), I decided to try [Digital Ocean App pltform](https://www.digitalocean.com/products/app-platform) for hosting and deployment. Its much simpler, cheaper and predictable as compared to AWS.
-
-1. You push your code to a Github repo.
-2. Give repo access to App pltform.
-3. configure a branch which will be used for deployments
-4. Select App type (static, web service, worker)
-5. Configure resources for the app
-6. Done
+For the [options expiry calendar](https://expiry-calendar.priyankt.com), I decided to try the [Digital Ocean App platform](https://www.digitalocean.com/products/app-platform) for hosting and deployment. In my opinion, it is much simpler, cheaper and predictable as compared to AWS.
 
 ## On 27th Jan, 2024
 
@@ -35,7 +28,7 @@ I followed the above listed procedure and deployed the app on the resource that 
 
 ## Next morning (28th Jan, 2024)
 
-I decided to access the app again to check what options are expiring today i.e. on 28th Jan, 2024. To my surprise, I see the app showing me the options that have already expired yesterday i.e. on 27th Jan, 2024. First thought that came to my mind - Probably I forgot to take the timezone into the account. The server date is still probably 27th Jan, 2024. A quick `date` command on the server displayed that the server time is set in UTC timezone and the date on the server is 28th Jan, 2024. Hmmm, It's a bit confusing. Why the app is displaying 27th Jan expiries when the server date is also 28th Jan? Nevertheless, I decided to use the timezone aware python function to get today's date. Previously, I was using `date.today()` to get the today's date but now modified it to `datetime.now(tz=ZoneInfo(key="Asia/Calcutta")).date()` so that timezone is taken into account. As soon as I pushed my code to main branch, the App platform detected the change and re-deployed the app. I accessed the app and it was now displaying the correct expiries i.e. for 28th Jan, 2024. Since 28th Jan 2024 is a Sunday, no expiries were expected. I believed it was probably me not using the timezone aware funtion which led to the issue. But all good now. The day went by with me feeling a sense of accomplishment after fixing the issue.
+I decided to access the app again to check what options are expiring today i.e. on 28th Jan, 2024. To my surprise, I see the app showing me the options that have already expired yesterday i.e. on 27th Jan, 2024. First thought that came to my mind - Probably I forgot to take the timezone into the account. The server date is still probably 27th Jan, 2024. A quick `date` command on the server displayed that the server time is set in UTC timezone and the date on the server is 28th Jan, 2024. Hmmm, it's a bit confusing. Why the app is displaying 27th Jan expiries when the server date is also 28th Jan? Nevertheless, I decided to use the timezone aware python function to get today's date. Previously, I was using `date.today()` to get the today's date but now modified it to `datetime.now(tz=ZoneInfo(key="Asia/Calcutta")).date()` so that timezone is taken into account. As soon as I pushed my code to main branch, the App platform detected the change and re-deployed the app. I accessed the app and it was now displaying the correct expiries i.e. for 28th Jan, 2024. Since 28th Jan 2024 is a Sunday, no expiries were expected. I believed it was probably me not using the timezone aware funtion which led to the issue. But all good now. The day went by with me feeling a sense of accomplishment after fixing the issue.
 
 ## Next morning (29th Jan, 2024)
 
@@ -82,3 +75,7 @@ async def get_expiry_calendar(
     expiry_sections: List[ExpirySection] = []
     is_selected = True
 ```
+
+## Next morning (1st Feb, 2024)
+
+I was pretty confident this time that the bug has been fixed. So confident that I didn't even wait to verify it and wrote the blog post. I wasn't disappointed. The calendar is not displaying the correct expiries. You can check out the expiry calendar yourself [here](https://expiry-calendar.priyankt.com/).
