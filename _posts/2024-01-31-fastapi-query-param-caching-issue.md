@@ -68,7 +68,7 @@ async def get_expiry_calendar(
     request: Request,
     today: Optional[date] = None,
 ):
-	if today is None:
+    if today is None:
         today = datetime.now(tz=ZoneInfo(key="Asia/Calcutta")).date()
     market: Market = get_market()
     end_date: date = today + timedelta(days=7)
