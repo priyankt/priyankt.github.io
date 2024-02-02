@@ -60,6 +60,9 @@ async def test(
 
 My understanding was that every time a request is made for test path ("/"), I would see a different random number. Unfortunately, I was wrong. I tried reloading the web page for test path ("/") multiple times and found that the same random number is returned every time. My hypothesis, that the FastAPI is caching the query string turns out to be true and which was the source of the issue I was encountering.
 
+> Turns out it's not the FastAPI that is caching the default value of the function argument but the Python itself. More info in the [Python docs](https://docs.python.org/3.9/tutorial/controlflow.html#default-argument-values)
+{: .prompt-danger }
+
 I quickly updated the code to obtain today's date inside the request function instead of passing it as default value.
 
 ```python
