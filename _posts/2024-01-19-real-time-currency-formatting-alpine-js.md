@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Real time currency formatting with Alpin.js
+title:  Real time currency formatting with Alpine.js
 tag: tech
 category: tech
 date: 2024-01-19 05:30:00 +0530
