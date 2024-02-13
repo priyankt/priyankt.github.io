@@ -12,7 +12,7 @@ Many employers and recruiters use GitHub to search for potential job candidates.
 
 I recently discovered that you can enhance your GitHub public profile by creating a special repository with README.md file. Here is how my public profile looks now.
 
-![My GitHub Profile](/assets/img/posts/13-02-2024/github-profile.png){: w="700" h="400" }
+![My GitHub Profile](/assets/img/posts/2024-02-13/github-profile.png){: w="700" h="400" }
 
 
 To enhance your GitHub public profile follow these steps:
