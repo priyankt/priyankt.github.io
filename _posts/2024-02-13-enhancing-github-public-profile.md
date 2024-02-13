@@ -16,7 +16,7 @@ I recently stumbled upon a way to enhance your GitHub public profile by creating
 
 To enhance your GitHub public profile, follow these steps:
 
-1. Create a public repo with the same name as your GitHub username. For instance, my username being 'priyankt', my repo name is also 'priyankt'. You can refer to my repo for guidance.
+1. Create a public repo with the same name as your GitHub username. For instance, my username being `priyankt`, my repo name is also `priyankt`. You can refer to [my repo](https://github.com/priyankt/priyankt) for guidance.
 2. Initialize the repo with a README.md file.
 3. Explore the various profile styles available on [awesome GitHub profile](https://zzetao.github.io/awesome-github-profile/) to gather ideas for your profile. Select the ones you like.
 4. Build your profile using markdown content.
