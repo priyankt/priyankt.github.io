@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Glimpses from the trek to the Everest Base Camp 1
+title:  Glimpses from the trek to the Everest Base Camp - Part 1
 tag: adventure
 category: adventure
 date: 2024-02-15 12:15:00 +0530
