@@ -26,9 +26,8 @@ To determine the future amounts required, we utilize a future value calculator (
 | Higher Education   | 15 years | 20,00,000           | 7%        | 55,18,063         |
 | Marriage           | 20 years | 25,00,000           | 6%        | 80,17,839         |
 
-| ![Future Value Calculator](/assets/img/posts/2024-04-11/calculate-future-value.png){: w="700" h="400" }
-_Future Value Calculator_ |
--
+![Future Value Calculator](/assets/img/posts/2024-04-11/calculate-future-value.png){: w="700" h="400" }
+_Future Value Calculator_
 
 ## 3. Selecting the Right Mutual Fund
 
@@ -43,9 +42,8 @@ Once the required amounts and expected CAGR returns are known, we calculate the 
 | Higher Education   | 15 years | 55,18,063         | 16.31% | 7,143   |
 | Marriage           | 20 years | 80,17,839         | 16.31% | 4,382   |
 
-| ![SIP Calculator](/assets/img/posts/2024-04-11/calculate-sip.png){: w="700" h="400" }
-_SIP Calculator_ |
--
+![SIP Calculator](/assets/img/posts/2024-04-11/calculate-sip.png){: w="700" h="400" }
+_SIP Calculator_
 
 ## 5. Execution
 
