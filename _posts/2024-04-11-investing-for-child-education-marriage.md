@@ -6,8 +6,6 @@ categories: [finance, investing]
 date: 2024-04-11 18:30:00 +0530
 ---
 
-# Investing for Child's Education and Marriage: A Systematic Approach
-
 Most parents aspire to secure their child's future. I've often been approached by young parents seeking advice on which mutual funds to invest in for their child's education and marriage. I firmly believe in adopting a systematic approach for such investments to yield optimal results. In this blog post, I'll outline a systematic analysis to guide you through this process.
 
 ## 1. Identifying the Financial Goals
@@ -28,8 +26,9 @@ To determine the future amounts required, we utilize a future value calculator (
 | Higher Education   | 15 years | 20,00,000           | 7%        | 55,18,063         |
 | Marriage           | 20 years | 25,00,000           | 6%        | 80,17,839         |
 
-![Future Value Calculator](/assets/img/posts/2024-04-11/calculate-future-value.png){: w="700" h="400" }
-_Future Value Calculator_
+| ![Future Value Calculator](/assets/img/posts/2024-04-11/calculate-future-value.png){: w="700" h="400" }
+_Future Value Calculator_ |
+-
 
 ## 3. Selecting the Right Mutual Fund
 
@@ -44,9 +43,9 @@ Once the required amounts and expected CAGR returns are known, we calculate the 
 | Higher Education   | 15 years | 55,18,063         | 16.31% | 7,143   |
 | Marriage           | 20 years | 80,17,839         | 16.31% | 4,382   |
 
-![SIP Calculator](/assets/img/posts/2024-04-11/calculate-sip.png){: w="700" h="400" }
-_SIP Calculator_
-
+| ![SIP Calculator](/assets/img/posts/2024-04-11/calculate-sip.png){: w="700" h="400" }
+_SIP Calculator_ |
+-
 
 ## 5. Execution
 
