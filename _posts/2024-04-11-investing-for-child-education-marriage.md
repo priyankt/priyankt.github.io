@@ -53,3 +53,5 @@ Based on our calculations, investing ₹7,143 every month for 15 years and ₹4,
 
 - Consider obtaining a PAN card in your daughter's name and investing through her Demat account for enhanced tax efficiency. Any taxes levied on withdrawals after 15 years will be attributed to your daughter's income, not yours. Additionally, any profits withdrawn while you are her guardian will be added to your income.
 - You may also consider increasing the SIP amount annually in proportion to the increase in your income.
+- Note that the CAGR returns considered are not SIP returns but lumpsum investment returns. The SIP returns might differ but would be in line with the lumpsum returns.
+- As the duration approaches, you can start shifting your portfolio from equity to debt to mitigate volatility.
