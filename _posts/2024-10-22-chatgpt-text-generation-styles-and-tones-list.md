@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  ChatGPT text generation styles and tines
+title:  ChatGPT text generation styles and tones
 tag: tech, ai
 category: tech, ai
 date: 2024-10-22 09:23:00 +0530
