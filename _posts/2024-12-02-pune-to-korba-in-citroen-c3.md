@@ -6,8 +6,6 @@ category: travel
 date: 2024-12-02 10:06:00 +0530
 ---
 
-# A 2600 km Adventure: Pune to Korba in a Citroën C3
-
 We had booked return train tickets from Pune to Raipur for a marriage in the family, but with the return leg unconfirmed, we decided to take our Citroën C3 for a 2600 km road trip from Pune to Korba. Here's a quick snapshot of our journey.  
 
 ---
