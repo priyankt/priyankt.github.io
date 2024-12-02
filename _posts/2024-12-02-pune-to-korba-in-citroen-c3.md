@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  Taking Citroen C3 for a 2600 kms ride
-tag: travel citroen
+title: Taking Citroen C3 for a 2600 kms ride
+tag: [travel citroen]
 category: travel
 date: 2024-12-02 10:06:00 +0530
 ---
