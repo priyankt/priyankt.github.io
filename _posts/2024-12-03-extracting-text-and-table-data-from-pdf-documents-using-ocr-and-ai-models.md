@@ -13,7 +13,7 @@ date: 2024-12-03 12:30:00 +0530
 
 In a recent project, I faced the challenge of extracting valuable information from a PDF document that contained both normal text and scanned text, along with several tables. While Optical Character Recognition (OCR) can handle text extraction, tables require a more advanced approach.  
 
-After exploring various options, I found two libraries that stood out: **[img2table](https://github.com/xavctn/img2table)** and **[MinerU](https://github.com/opendatalab/MinerU)**. Here's a breakdown of my experience with both tools and how they performed for this use case.  
+After exploring various options, I found two libraries that stood out: **[img2table](https://github.com/xavctn/img2table){:target="_blank"}** and **[MinerU](https://github.com/opendatalab/MinerU){:target="_blank"}**. Here's a breakdown of my experience with both tools and how they performed for this use case.  
 
 ---
 
