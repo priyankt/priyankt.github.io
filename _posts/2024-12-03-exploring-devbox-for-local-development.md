@@ -47,7 +47,19 @@ To enter a Devbox shell, simply type:
 
 ```bash  
 devbox shell  
-```  
+```
+```bash
+apple@Apples-MacBook-Pro prefect (v2) $ devbox shell
+Info: Ensuring packages are installed.
+✓ Computed the Devbox environment.
+Starting a devbox shell...
+Virtual environment directory doesn't exist. Creating new one...
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+(.venv) (devbox) bash-3.2$ 
+```
 
 To exit the shell, just type `exit`.  
 
