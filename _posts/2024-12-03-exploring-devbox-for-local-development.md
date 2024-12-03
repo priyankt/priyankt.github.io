@@ -8,7 +8,7 @@ category: tech
 date: 2024-12-03 11:25:00 +0530
 ---
 
-For a long time, I’ve been using docker to isolate multiple development projects on my local machine. My setup includes VS Code with Dev Containers, which has worked well. However, I recently came across **Devbox** in the [ThoughtWorks Technology Radar](https://www.thoughtworks.com/radar) which produces isolated dev environments using nix package manager without using virtual machines or containers. Wondering if it could prove to be a better tool than docker containers, I decided to give it a shot.
+For a long time, I’ve been using docker to isolate multiple development projects on my local machine. My setup includes VS Code with Dev Containers, which has worked well. However, I recently came across [**Devbox**](https://www.jetify.com/devbox) in the [ThoughtWorks Technology Radar](https://www.thoughtworks.com/radar) which produces isolated dev environments using nix package manager without using virtual machines or containers. Wondering if it could prove to be a better tool than docker containers, I decided to give it a shot.
 
 ### Installation and Setup  
 
