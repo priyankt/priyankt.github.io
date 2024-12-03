@@ -1,7 +1,9 @@
 ---
 layout: post
 title: "Exploring Devbox for Local Development: First Impressions"
-tags: [tech tools]
+tags:
+- tech
+- tools
 category: tech
 date: 2024-12-03 11:25:00 +0530
 ---
