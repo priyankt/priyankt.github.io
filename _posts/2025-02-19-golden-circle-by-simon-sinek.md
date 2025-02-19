@@ -2,10 +2,10 @@
 layout: post
 title: Golden Circle By Simon Sinek
 tags:
-- philosophy
+- gyaan
 - startups
 category: 
-- philosophy
+- gyaan
 - startups
 date: 2025-02-19 11:13:00 +0530
 ---
